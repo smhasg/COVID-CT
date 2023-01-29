@@ -32,8 +32,8 @@ from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
 import re
 import albumentations as albu
-from albumentations.pytorch import ToTensor
-from catalyst.data import Augmentor
+# from albumentations.pytorch import ToTensor
+# from catalyst.data import Augmentor
 import torchxrayvision as xrv
 
 
@@ -58,8 +58,8 @@ import numpy as np
 from sklearn.metrics import roc_auc_score
 import re
 import albumentations as albu
-from albumentations.pytorch import ToTensor
-from catalyst.data import Augmentor
+# from albumentations.pytorch import ToTensor
+# from catalyst.data import Augmentor
 from skimage.io import imread, imsave
 import skimage
 
@@ -70,7 +70,7 @@ torch.cuda.empty_cache()
 # In[2]:
 
 
-get_ipython().system('pip install --upgrade efficientnet-pytorch')
+# get_ipython().system('pip install --upgrade efficientnet-pytorch')
 
 
 # In[3]:
